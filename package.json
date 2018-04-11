@@ -6,7 +6,7 @@
     "watch": "watch \"npm run build\" ./src",
     "pack": "npm run build && webpack --optimize-minimize"
   },
-  "main": "js/index.js",
+  "main": "js/downloadXlsx.js",
   "license": "MIT",
   "babel": {
     "presets": [
