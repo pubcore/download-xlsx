@@ -1,0 +1,49 @@
+{
+  "scripts": {
+    "test": "mocha --watch --require babel-register --require source-map-support --recursive",
+    "build": "babel src --out-dir js",
+    "prepublish": "npm run build",
+    "watch": "watch \"npm run build\" ./src",
+    "pack": "npm run build && webpack --optimize-minimize"
+  },
+  "main": "js/index.js",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "name": "pubcore-download-xlsx",
+  "version": "1.0.0",
+  "description": "js lib to provide a xlsx Excel file as download",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pubcore/download-xlsx.git"
+  },
+  "keywords": [
+    "download",
+    "xlsx",
+    "excel"
+  ],
+  "author": "pubcore",
+  "bugs": {
+    "url": "https://github.com/pubcore/download-xlsx/issues"
+  },
+  "homepage": "https://github.com/pubcore/download-xlsx#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-plugin-mocha": "^5.0.0",
+    "mocha": "^5.0.5",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.12.8"
+  }
+}
