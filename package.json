@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha --watch --require babel-register --require source-map-support --recursive",
+    "test": "mocha --require babel-register --require source-map-support --recursive",
     "build": "babel src --out-dir js",
     "prepublish": "npm run build",
     "watch": "watch \"npm run build\" ./src",
