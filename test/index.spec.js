@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import downloadXlsx from '../src/downloadXlsx'
+import downloadXlsx from '../src/index'
 
 describe('downloadXlsx ' + new Date(), () => {
 	it('is available', () => {
