@@ -17,7 +17,7 @@
     ]
   },
   "name": "pubcore-download-xlsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js lib to provide a xlsx Excel file as download",
   "repository": {
     "type": "git",
