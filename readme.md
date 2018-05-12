@@ -4,13 +4,13 @@
 
 #### Install
 
-	npm install pubcore-download-xlsx --save
+	npm install @pubcore/download-xlsx --save
 
 #### usage
 
 simple example:
 
-	import downloadXlsx from 'pubcore-download-xlsx'
+	import downloadXlsx from '@pubcore/download-xlsx'
 
 	downloadXlsx({
 		cols: ['column1','column2','column3'].map(c => ({'name': c})),
