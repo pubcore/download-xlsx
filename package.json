@@ -16,7 +16,7 @@
       "transform-object-rest-spread"
     ]
   },
-  "name": "@pubcore/download-xlsx",
+  "name": "@pubcore/dwnld-xlsx",
   "version": "1.0.2",
   "description": "js lib to provide a xlsx Excel file as download",
   "repository": {
