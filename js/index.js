@@ -39,9 +39,10 @@ exports.default = function (_ref) {
 	//head row
 
 	sheet = cols.reduce(function (acc, _ref4, index) {
-		var name = _ref4.name;
+		var name = _ref4.name,
+		    title = _ref4.title;
 
-		acc[encode_cell({ c: index, r: 0 })] = { t: 's', v: name, z: '@' };
+		acc[encode_cell({ c: index, r: 0 })] = title ? { t: 's', v: title, z: '@' } : { t: 's', v: name, z: '@' };
 		return acc;
 	}, {});
 

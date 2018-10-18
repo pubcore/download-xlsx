@@ -18,8 +18,8 @@ export default ({rows, cols, filename, map, formats, types}) => {
 
 	//head row
 	sheet = cols.reduce(
-		(acc, {name}, index) => {
-			acc[encode_cell({c:index, r:0})] = {t:'s', v:name, z:'@'}
+		(acc, {name, title}, index) => {
+			acc[encode_cell({c:index, r:0})] = title ? {t:'s', v:title, z:'@'} : {t:'s', v:name, z:'@'}
 			return acc
 		},
 		{}
