@@ -49,6 +49,6 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
-    "xlsx": "^0.12.12"
+    "xlsx": "^0.12.13"
   }
 }
