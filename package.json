@@ -11,9 +11,6 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-object-rest-spread"
     ]
   },
   "name": "@pubcore/dwnld-xlsx",
@@ -34,20 +31,19 @@
   },
   "homepage": "https://github.com/pubcore/download-xlsx#readme",
   "devDependencies": {
-    "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
-    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/register": "^7.7.7",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-mocha": "^5.3.0",
-    "mocha": "^6.2.2",
+    "eslint-plugin-mocha": "^6.3.0",
+    "mocha": "^7.1.1",
     "nyc": "^15.0.0",
     "source-map-support": "^0.5.16",
     "watch": "^1.0.2",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "xlsx": "^0.12.13"
