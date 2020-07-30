@@ -1,9 +1,8 @@
-import {expect} from 'chai'
 import downloadXlsx from '../src/index'
+import {equal} from 'assert'
 
 describe('downloadXlsx ' + new Date(), () => {
 	it('is available', () => {
-		expect(downloadXlsx).not.to.be.null
+		equal(!downloadXlsx, false)
 	})
-
 })
